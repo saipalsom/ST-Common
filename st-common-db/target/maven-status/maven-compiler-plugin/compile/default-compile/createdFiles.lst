@@ -1,0 +1,6 @@
+org\st\common\configuration\DataSourceContextHolder.class
+org\st\common\configuration\DbLibAutoConfiguration.class
+org\st\common\configuration\ReplicationRoutingDataSource.class
+org\st\common\configuration\ReplicationRoutingDataSource$DataSourceType.class
+org\st\common\configuration\DataSourceConfig.class
+org\st\common\aop\ReadOnlyRouteInterceptor.class

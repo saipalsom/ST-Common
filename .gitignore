@@ -7,7 +7,7 @@ release.properties
 dependency-reduced-pom.xml
 buildNumber.properties
 .mvn/timing.properties
-# https://maven.apache.org/wrapper/#usage-without-binary-jar
+# https://github.com/takari/maven-wrapper#usage-without-binary-jar
 .mvn/wrapper/maven-wrapper.jar
 
 # Eclipse m2e generated files
@@ -15,3 +15,20 @@ buildNumber.properties
 .project
 # JDT-specific (Eclipse Java Development Tools)
 .classpath
+# Ignore JSON temp files
+**/tmp/*.json
+
+# Ignore compressed log files
+**/*.log.gz
+
+# Ignore factorypath files
+**/.factorypath
+
+# Ignore factorypath files
+**/.log
+
+# Ignore factorypath files
+**/logs/**
+.settings/**
+
+
